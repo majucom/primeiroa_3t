@@ -7,15 +7,28 @@
      text-align: center;
 }
 input {
-    background: chocolate;
+    background: rgb(153, 137, 216);
     color: cornsilk;
     border-radius: 8px;
     padding: 8px;
 }
 #sptotal {
-    background: crimson;
-    color: darkkhaki;
+    background: rgb(126, 115, 221);
+    color: rgb(85, 102, 197);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+}
+.calculadora button{
+ margin-top: 10px;
+ background-color: aquamarine;
+ color: rgb(115, 53, 231);
+ cursor: pointer;
+}
+.spListaMeses {
+ text-align: start;
+ border-style: dotted;
+  border-color: blueviolet; 
+ border-width: 1px;
+ color: rgb(36, 22, 231);
 }
