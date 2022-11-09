@@ -7,13 +7,16 @@
      text-align: center;
 }
 input {
-    background: rgb(153, 137, 216);
+    background: rgb(49, 37, 99);
     color: cornsilk;
     border-radius: 8px;
     padding: 8px;
 }
-#sptotal {
-    background: rgb(126, 115, 221);
+.calculadora input:focus{
+    background: pink
+    color: cornsilk
+#sptotal { 
+    background: rgb(7, 17, 29);
     color: rgb(85, 102, 197);
     border-radius: 10px;
     padding: 10px;
@@ -31,4 +34,5 @@ input {
   border-color: blueviolet; 
  border-width: 1px;
  color: rgb(36, 22, 231);
+  
 }
