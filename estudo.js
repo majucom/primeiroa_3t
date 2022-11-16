@@ -1,5 +1,5 @@
 let tabuada = 1;
-let nome = "Maria Julia";
+let nome = "Maria julia 1A";ia 
 
 function escreva() {
     document.write("tabuada do " + tabuada + "<br>")
@@ -99,18 +99,20 @@ function calcule() {
     document.getElementById("resultado").innerHTML = r;
 
 }
- function calculaESG(){
- let a = -1;
-let b = -5;
+
+function calculaESG(){
+let a = -1;
+let b = 5;
 let c = -6;
-delta = (b*b) - (4*a*c); if (delta < 0){
+delta = (b*b) - (4*a*c);
 let raiz;
 let x1, x2;
-    else {
-        raiz = Math.sqrt(delta);
-       x1 = ((-b)+raiz)/(2*a);
-       x2 = ((- b)-raiz)/(2*a);
-       raiz = "x1="+x1 + "e x12="+x2;
-       
+if (delta <0){
 
- }
+}else {
+    raiz = Math.sqrt(delta);
+    x1 = ((-b)+raiz)/(2*a);
+    x2 = ((-b)-raiz)/(2*a);
+}
+document.getElementById("raiz").value = delta;
+}
